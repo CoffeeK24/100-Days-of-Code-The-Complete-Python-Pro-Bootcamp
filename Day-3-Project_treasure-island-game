@@ -39,7 +39,7 @@ if left_or_right == "left":
   else:
     print("you are killed by hydra, game over")
 else:
-  print("you are dead")
+  print("you are dead") 
   
   
     
