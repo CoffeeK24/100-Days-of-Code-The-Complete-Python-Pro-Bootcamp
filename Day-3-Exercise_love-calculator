@@ -25,7 +25,7 @@ number_int = int(number)
 
 if (number_int < 10) and (number_int > 90):
     print(f"Your score is {number_int}, you go together like coke and mentos")
-elif (number_int > 40) and (number_int < 50):
+elif (number_int >= 40) and (number_int <= 50):
     print(f"Your score is {number_int}, you are alright together.")
 else:
     print(f"Your score is {number_int}")
