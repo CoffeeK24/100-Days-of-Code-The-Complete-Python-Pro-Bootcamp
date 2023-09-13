@@ -1,0 +1,71 @@
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+import random
+decision_1 = int(input("Write 0 for Rock, Write 1 for Paper, Write 2 for Scissors \n"))
+
+if decision_1 == 0:
+  print(rock)
+if decision_1 == 1:
+  print(paper)
+if decision_1 == 2:
+  print(scissors)
+
+decision_2= random.randint(0,2)
+
+if decision_2 == 0:
+  print(rock)
+if decision_2 == 1:
+  print(paper)
+if decision_2 == 2:
+  print(scissors)
+
+if decision_1 == 0 and decision_2 == 0:
+  print("draw")
+elif decision_1 == 0 and decision_2 == 1:
+  print("P2 won")
+elif decision_1 == 0 and decision_2 == 2:
+  print("P1 won")
+elif decision_1 == 1 and decision_2 == 0:
+  print("P1 won")
+elif decision_1 == 1 and decision_2 == 1:
+  print("draw")
+elif decision_1 == 1 and decision_2 == 2:
+  print("P2 won") 
+elif decision_1 == 2 and decision_2 == 0:
+  print("P2 won")
+elif decision_1 == 2 and decision_2 == 1:
+  print("P1 won")
+elif decision_1 == 2 and decision_2 == 2:
+  print("draw")  
+  
+  
+
+
+
+  
+
