@@ -1,0 +1,13 @@
+student_heights = input("Input a list of student heights ").split()
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+
+student_number = 0
+total = 0
+for height in student_heights:
+    student_number += 1
+    total = total + height
+
+avarage =round(total / student_number)  
+print(avarage)
+
